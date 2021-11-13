@@ -48,6 +48,6 @@ let handler = async (m, { conn, text, usedPrefix, command }) => {
 }
 handler.help = ['pay @user <jumlah>']
 handler.tags = ['xp']
-handler.command = /^pay$/
+handler.command = /^test$/
 
 module.exports = handler
